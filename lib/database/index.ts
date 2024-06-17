@@ -24,4 +24,4 @@ export const connectToDatabase = async () => {
   return cached.conn;
 };
 
-// linkedin post about why we use this pattern in serverless - coz every endpoint will create a new connection to the database, which is not good for performance - connectToDatabase().then(() => { // your code here })
+// linkedin post about why we use this pattern in serverless - coz every endpoint will create a new connection to the database, which is not good for performance - connectToDatabase().then(() => { // your code here }
